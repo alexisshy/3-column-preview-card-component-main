@@ -9,36 +9,68 @@ body {
     background-color: hsl(0, 0%, 95%);
 }
 
+.box {
+    border-radius: 12px;
+}
+
 .three-columns {
     display: flex;
     flex-direction: row;
     margin-top: 160px;
+    margin-left: 242px;
     max-height: 475px;
-    align-items: stretch;
+    
+    
 }
 
 .three-columns p {
     color: hsla(0, 0%, 100%, 0.75);
+   /* padding-top: 35px;
+    padding-bottom: 80px;
+    padding-left: 39px;
+    padding-right: 65px;
+    align-items: center;*/
+    padding: 40px;
 } 
+
+img {
+    margin: 43px;
+    
+}
+
+heading {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 36px;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: big shoulders display;
+}
 
 .col-one {
 
     background-color: hsl(31, 77%, 52%);
     /*max-width: 285px;*/
-    width: 30%;
-    background-image: url("/images/icon-luxury.svg");
-    background-repeat: no-repeat;
+    width: 21%;
+    
     
 }
 
 .col-two {
     background-color: hsl(184, 100%, 22%);
-    width: 30%;
+    width: 21%;
 
 }
 
 .col-three {
     background-color: hsl(179, 100%, 13%);
-    width: 30%;
+    width: 21%;
 
+}
+
+button {
+    border-radius: 50px;
+    padding: 30px 18px;
+    
+    margin-bottom: 50px;
+    border: none;
 }
