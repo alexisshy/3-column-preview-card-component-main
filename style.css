@@ -14,13 +14,20 @@ body {
     flex-direction: row;
     margin-top: 160px;
     max-height: 475px;
+    align-items: stretch;
 }
+
+.three-columns p {
+    color: hsla(0, 0%, 100%, 0.75);
+} 
 
 .col-one {
 
     background-color: hsl(31, 77%, 52%);
     /*max-width: 285px;*/
     width: 30%;
+    background-image: url("/images/icon-luxury.svg");
+    background-repeat: no-repeat;
     
 }
 
