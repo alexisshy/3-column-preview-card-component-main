@@ -10,7 +10,7 @@ body {
 }
 
 .box {
-    border-radius: 12px;
+    border-radius: ;
 }
 
 .three-columns {
@@ -18,7 +18,8 @@ body {
     flex-direction: row;
     margin-top: 160px;
     margin-left: 242px;
-    max-height: 475px;
+    
+    
     
     
 }
@@ -41,7 +42,7 @@ img {
 heading {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 36px;
-    align-items: center;
+    
     text-transform: uppercase;
     font-family: big shoulders display;
 }
