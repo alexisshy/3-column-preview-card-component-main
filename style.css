@@ -5,68 +5,74 @@
 }
 
 body {
-    font-family: lexend deca;
+    font-family: lexend deca, sans-serif;
     background-color: hsl(0, 0%, 95%);
 }
 
-.box {
-    border-radius: ;
-}
 
-.three-columns {
+
+.car-rentals {
     /*/display: flex;
     flex-direction: row;*/
-    margin-top: 10rem;
-    margin-left: 15.125rem;
-    display: block;
+    /*margin-top: 10rem;*/
+    /*margin-left: 15.125rem;
+    display: flex;*/
     width: 100%;
+    /*display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;*/
     
     
     
     
 }
 
-.three-columns p {
+.car-rentals p {
     color: hsla(0, 0%, 100%, 0.75);
    /* padding-top: 35px;
     padding-bottom: 80px;
     padding-left: 39px;
     padding-right: 65px;
     align-items: center;*/
-    padding: 2.5rem;
+    
+   
 } 
 
-img {
-    margin: 2.6875rem;
-    
+.info p, .info heading, .info button {
+    margin-top: 2.5rem;
 }
 
 heading {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 2.25rem;
-    
+    display: block;
     text-transform: uppercase;
-    font-family: big shoulders display;
+    font-family: big shoulders display, serif;
 }
 
-.col-one {
+.info {
+    width: 22%;
+    padding: 2.5rem;
+
+}
+
+.sedan-info {
 
     background-color: hsl(31, 77%, 52%);
-    /*max-width: 285px;*/
-    width: 22%;
     border-radius: 12px 12px 0 0;
     
 }
 
-.col-two {
+.suv-info {
     background-color: hsl(184, 100%, 22%);
-    width: 22%;
+    
 
 }
 
-.col-three {
+.luxury-info {
     background-color: hsl(179, 100%, 13%);
-    width: 22%;
     border-radius: 0 0 12px 12px;
 
 }
@@ -91,10 +97,26 @@ button {
     color:hsl(179, 100%, 13%)
 }
 
-@media (max-width: 600px) {
-    .box {
+@media (min-width: 900px) {
+    .car-rentals {
         display: flex;
-        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 10rem;
+        /*margin-left: 15.125rem;*/
+        margin-left: 3.125rem;
         width: 100%;
+        
     }
+
+    .sedan-info {
+        border-radius: 12px 0 0 12px;
+    }
+
+    .luxury-info {
+        border-radius: 0 12px 12px 0;
+    }
+
+
 }
