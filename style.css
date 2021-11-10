@@ -13,7 +13,7 @@ body {
 
 .car-rentals {
     display: flex;
-    align-items: center;
+    
     justify-content: center;
     flex-direction: column;
     /*/display: flex;
@@ -48,7 +48,7 @@ body {
     margin-top: 2.5rem;
 }
 
-heading {
+h1 {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 2.25rem;
     display: block;
