@@ -5,65 +5,50 @@
 }
 
 body {
-    font-family: lexend deca, sans-serif;
+    font-family: 'lexend deca', sans-serif;
     background-color: hsl(0, 0%, 95%);
+    font-size: 16px;
+  
 }
-
-
 
 .car-rentals {
     display: flex;
-    
     justify-content: center;
     flex-direction: column;
-    /*/display: flex;
-    flex-direction: row;*/
-    /*margin-top: 10rem;*/
-    /*margin-left: 15.125rem;
-    display: flex;*/
-    width: 100%;
-    /*display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;*/
-    
-    
-    
-    
+   
 }
+
+
 
 .car-rentals p {
     color: hsla(0, 0%, 100%, 0.75);
-   /* padding-top: 35px;
-    padding-bottom: 80px;
-    padding-left: 39px;
-    padding-right: 65px;
-    align-items: center;*/
-    
+    line-height: 1.4;
    
 } 
 
-.info p, .info heading, .info button {
-    margin-top: 2.5rem;
+.info p, .info h1, .info button {
+    margin-top: 2.5rem; 
+    
 }
 
 h1 {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 2.25rem;
-    display: block;
+   /* display: block;*/
     text-transform: uppercase;
-    font-family: big shoulders display, serif;
+    font-family: 'big shoulders display', serif;
 }
 
 .info {
+  
     padding: 2.5rem;
     width: 85%;
-
 }
 
-.sedan-info {
 
+
+.sedan-info {
+    
     background-color: hsl(31, 77%, 52%);
     border-radius: 12px 12px 0 0;
     
@@ -87,6 +72,7 @@ button {
     align-items: center;
     margin-bottom: 3.125rem;
     border: none;
+
 }
 
 .sedan-btn {
@@ -102,56 +88,94 @@ button {
 }
 
 @media (min-width: 900px) {
-    .car-rentals {
-        flex-direction: row;
-        margin-top: 10rem;
-        /*margin-left: 15.125rem;*/
-        margin-left: 3.125rem;
-        
-        
-        
-        
-    }
 
-    .info {
-        width: 17.875rem;
-    }
+    
+html,
+body {
+    height: 100%;
+}
 
-    .sedan-info {
-        border-radius: 12px 0 0 12px;
-    }
+main {
+    height: 465px;
+}
+.info p, .info h1, .info button {
+    margin-top: 0rem; 
+    
+}
+body {
+    font-family: 'lexend deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 16px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
 
-    .luxury-info {
-        border-radius: 0 12px 12px 0;
-        
-    }
-    .luxury-info p {
-        overflow-wrap: break-word;
-    }
+section > img {
+    width: 29%;
+    height: 8%;
+}
 
-    .sedan-btn:hover {
-        background-color: hsl(31, 77%, 52%);
-        color: white;
-        border: white solid .0625rem;
-        cursor: pointer;
-    }
+.car-rentals {
+    flex-direction: row;
+    margin-top: 10rem;
+    margin-left: 3.125rem;
+    
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.5rem;
+    /* width: 85%;*/
+}
 
-    .suv-btn:hover {
-        background-color: hsl(184, 100%, 22%);
-        color: white;
-        border: white solid .0625rem;
-        cursor: pointer;
-    }
+.info {
+    width: 17.875rem;
 
-    .luxury-btn:hover {
-        background-color: hsl(179, 100%, 13%);
-        color: white;
-        border: white solid .0625rem;
-        cursor: pointer;
-        
+}
 
 
-    }
+.sedan-info {
+    border-radius: 12px 0 0 12px;
+    
+}
+
+.luxury-info {
+    border-radius: 0 12px 12px 0;     
+}
+
+.luxury-info p {
+    overflow-wrap: break-word;
+}
+
+button {
+    width: 8.5625rem;
+}
+
+.sedan-btn:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: white solid .0625rem;
+    cursor: pointer;
+}
+
+.suv-btn:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: white solid .0625rem;
+    cursor: pointer;
+}
+
+.luxury-btn:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: white solid .0625rem;
+    cursor: pointer;
+    
+
+
+}
 
 
 
