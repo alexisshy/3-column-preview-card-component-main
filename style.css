@@ -13,158 +13,19 @@ body {
 
 .car-rentals {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-   
-}
-
-.car-rentals p {
-    color: hsla(0, 0%, 100%, 0.75);
-    line-height: 1.4;
-   
-} 
-
-.info p, .info h1, .info button {
-    margin-top: 2.5rem; 
+    width: 30%;
     
-}
-
-h1 {
-    color: hsla(0, 0%, 100%, 0.75);
-    font-size: 2.25rem;
-   /* display: block;*/
-    text-transform: uppercase;
-    font-family: 'big shoulders display', serif;
-}
-
-.info {
-  
-    padding: 2.5rem;
-    width: 85%;
 }
 
 .sedan-info {
-    
-    background-color: hsl(31, 77%, 52%);
-    border-radius: 12px 12px 0 0;
-    
+    background-color:  hsl(31, 77%, 52%);
 }
 
 .suv-info {
-    background-color: hsl(184, 100%, 22%);
+    background-color:  hsl(184, 100%, 22%);
 }
 
 .luxury-info {
     background-color: hsl(179, 100%, 13%);
-    border-radius: 0 0 12px 12px;
-}
-
-button {
-    border-radius: 3.125rem;
-    padding: 1.125rem 1.875rem;
-    align-items: center;
-    margin-bottom: 3.125rem;
-    border: none;
-
-}
-
-.sedan-btn {
-    color:hsl(31, 77%, 52%);
-}
-
-.suv-btn {
-    color: hsl(184, 100%, 22%);
-}
-
-.luxury-btn {
-    color:hsl(179, 100%, 13%)
-}
-
-@media (min-width: 900px) {
-
-    
-html,
-body {
-    height: 100%;
-}
-
-main {
-    height: 465px;
-}
-.info p, .info h1, .info button {
-    margin-top: 0rem; 
-    
-}
-body {
-    font-family: 'lexend deca', sans-serif;
-    background-color: hsl(0, 0%, 95%);
-    font-size: 16px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
-section > img {
-    width: 29%;
-    height: 8%;
-}
-
-.car-rentals {
-    flex-direction: row;
-    margin-top: 10rem;
-    margin-left: 3.125rem;
-    
-}
-.info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2.5rem;
-    /* width: 85%;*/
-}
-
-.info {
-    width: 17.875rem;
-
-}
-
-.sedan-info {
-    border-radius: 12px 0 0 12px;
-    
-}
-
-.luxury-info {
-    border-radius: 0 12px 12px 0;     
-}
-
-.luxury-info p {
-    overflow-wrap: break-word;
-}
-
-button {
-    width: 8.5625rem;
-}
-
-.sedan-btn:hover {
-    background-color: hsl(31, 77%, 52%);
-    color: white;
-    border: white solid .0625rem;
-    cursor: pointer;
-}
-
-.suv-btn:hover {
-    background-color: hsl(184, 100%, 22%);
-    color: white;
-    border: white solid .0625rem;
-    cursor: pointer;
-}
-
-.luxury-btn:hover {
-    background-color: hsl(179, 100%, 13%);
-    color: white;
-    border: white solid .0625rem;
-    cursor: pointer;
-}
-
-
 }
